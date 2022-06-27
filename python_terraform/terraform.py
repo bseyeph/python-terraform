@@ -132,8 +132,8 @@ class Terraform:
         return {
             "state": self.state,
             "target": self.targets,
-            "var": self.variables,
-            "var_file": self.var_file,
+            # "var": self.variables,
+            # "var_file": self.var_file,
             "parallelism": self.parallelism,
             "no_color": IsFlagged,
             "input": False,
